@@ -2,7 +2,7 @@
 	<div class="e-page-account">
 		<div class="e-page-account-container">
 			<div class="e-page-account-container-header">
-				<div class="e-page-account-container-header-title">实施运维工具</div>
+				<div class="e-page-account-container-header-title">VUE ADMIN</div>
 			</div>
 			<el-form label-position="top" :rules="rules" :model="ruleForm" ref="loginForm" class="e-page-account-container-login">
 				<el-form-item label="账号" prop="username">
