@@ -28,11 +28,10 @@ export default {
 						util.cookies.set('userid', res.data.id)
 						// 设置 vuex 用户信息
 						await dispatch('user/set', res.data, { root: true })
-						
+
 						router.push('/')
 						// 结束
 						resolve()
-						
 					})
 					.catch(err => {
 						reject(err)

@@ -13,7 +13,7 @@ module.exports = {
 	runtimeCompiler: true,
 	productionSourceMap: false,
 	devServer: {
-		publicPath: '/',
+		publicPath: '/'
 		// proxy: {
 		// 	'^/v1': {
 		// 		target: 'localhost:3000',
