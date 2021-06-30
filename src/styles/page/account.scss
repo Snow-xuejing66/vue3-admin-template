@@ -1,0 +1,31 @@
+.e-page-account {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	background-color: #fff;
+	background-image: linear-gradient(25deg, #077f7c, #3aa693, #5ecfaa, #7ffac2);
+	&-container {
+		width: 420px;
+		height: 500px;
+		background-color: #fff;
+		border-radius: 4px;
+		box-shadow: 0px 21px 41px 0px rgba(0, 0, 0, 0.2);
+		&-header {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 40px 0 20px 0;
+			&-title {
+				font-size: 28px;
+				color: #1baeae;
+				font-weight: bold;
+			}
+		}
+		&-login {
+			width: 70%;
+			margin: 0 auto;
+		}
+	}
+}
