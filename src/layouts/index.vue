@@ -14,7 +14,7 @@
 			<el-main class="e-layout-content e-layout-content-fix-with-header">
 				<div class="e-layout-content-main">
 					<router-view v-slot="{ Component }">
-						<transition name="fade" mode="out-in" appear>
+						<transition name="fade" mode="out-in">
 							<keep-alive>
 								<component :is="Component"></component>
 							</keep-alive>
